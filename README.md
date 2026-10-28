@@ -13,6 +13,9 @@
 
 </div>
 
+
+
+
 **The tutorial ends. Your Channel Box comes back.**
 
 Maya Workflow Kit is a free, open-source Blender extension for people who learned 3D in Maya. It brings the Maya
