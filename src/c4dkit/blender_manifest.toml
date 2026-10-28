@@ -1,0 +1,32 @@
+schema_version = "1.0.0"
+
+id = "c4dkit"
+version = "0.1.0"
+name = "Cinema 4D Workflow Kit"
+tagline = "Cinema 4D workflow and muscle memory in Blender"
+maintainer = "Community"
+type = "add-on"
+tags = ["User Interface"]
+
+blender_version_min = "4.5.0"
+blender_version_max = "5.3.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+  "SPDX:CC0-1.0",
+]
+copyright = [
+  "2026 Cinema 4D Workflow Kit Contributors",
+]
+
+[permissions]
+files = "Custom layouts and C4D settings"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".ruff_cache/",
+  "/.git/",
+  "/*.zip",
+  "*.blend1",
+]
